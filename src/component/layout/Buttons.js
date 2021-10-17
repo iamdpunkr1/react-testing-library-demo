@@ -1,6 +1,6 @@
-function Buttons({name,calculate}){
+function Buttons({name,calculate,id}){
     return (
-    <button onClick={calculate}>{name}</button>
+    <button data-testid={id} onClick={calculate}>{name}</button>
     )
 }
 

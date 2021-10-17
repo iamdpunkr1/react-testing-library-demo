@@ -1,6 +1,6 @@
-function Input({inputValue, inputChange}){
+function Input({inputValue, inputChange, id}){
     return (
-        <input type="number" placeholder="0" value={inputValue} onChange={inputChange}/>
+        <input type="number" data-testid={id}  value={inputValue} onChange={inputChange}/>
     )
 }
 
